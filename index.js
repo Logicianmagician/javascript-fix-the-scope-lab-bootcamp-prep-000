@@ -1,6 +1,7 @@
-var animal = 'dog'
+var animal = 'cat'
 
 function myAnimal() {
+var animal = 'dog'
   return animal
 }
 
@@ -15,15 +16,15 @@ function add2(n) {
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+  const two = Math.floor(Math.random() * 1000)
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
-  }
-}
+var funkyFunction() = function
+
+function function() {
+  return "FUNKY!"
+
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+var theFunk = funkyFunction()
