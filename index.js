@@ -13,11 +13,10 @@ function yourAnimal() {
 }
 
 function add2(n) {
-var n = 3
+var two = Math.floor(Math.random() * 1000)
   return n + two
 
   // Feel free to move things around!
-  const two = Math.floor(Math.random() * 1000)
 }
 
 var funkyFunction = function() {
