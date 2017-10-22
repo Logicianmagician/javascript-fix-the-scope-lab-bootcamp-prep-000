@@ -19,7 +19,7 @@ function add2(n) {
   const two = Math.floor(Math.random() * 1000)
 }
 
-var funkyFunction() = function() {
+var funkyFunction = function() {
 return function() {
   }  return "FUNKY!"
 }
